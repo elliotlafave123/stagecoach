@@ -1,24 +1,43 @@
 html {
     background-color:#e6e9ef;
+    overflow: hidden;
+    font-family: montserratregular,sans-serif;
+    font-weight: 400;
+}
+
+#container {
+    width:100%;
+    padding:4%;
 }
 
 #ticket {
-    height:300px;
+    width:84.5%;
+    height:400px;
+    padding:4%;
     background-color:white;
     box-shadow:2px,2px,3px;
-    border-radius:20px;
-    padding:10px;
+    border-radius: 5px;
+    color:black;
 }
 
-#ticket span {
-    font-family: sans-serif;
-    margin-left:20px;
+
+.gm{
+    font-size: 30px;
+    margin-top:10px;
+}
+
+.activated{
+    font-size: 15px;
+    margin-top:5px;
+}
+
+.expiry{
+    font-size: 31px;
+    margin-top:60px;
 }
 
 #ticket_img {
-    width:60%;
-    margin-left:20%;
-    margin-right:20%;
-    margin-top:30px;
-    margin-bottom:30px;
+    padding-top:5px;
+    width:27%;
+    float: right;
 }
